@@ -29,15 +29,19 @@
 ## 🗂️ Folder Structure
 
 ```
-/
-chatbot-ai-azure/
-├── app.py # Main Flask app
-├── config/ # Azure configuration (with .env support)
-├── services/ # AI service integration (OpenAI & Azure AI)
-├── static/ # Frontend assets (Tailwind CSS & JS)
-├── templates/ # HTML templates (Jinja2)
-├── requirements.txt # Python dependencies
-├── .env # Environment variables
+chatbot-ai-claude/
+├── app.py
+├── requirements.txt
+├── .env
+├── config/
+│   └── azure_config.py
+├── services/
+│   └── ai_service.py
+├── templates/
+│   └── index.html
+├── static/
+│   ├── js/script.js
+│   └── css/input.css
 ```
 
 ---
