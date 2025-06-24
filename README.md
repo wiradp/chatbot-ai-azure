@@ -29,7 +29,7 @@
 ## 🗂️ Folder Structure
 
 ```
-chatbot-ai-claude/
+chatbot-ai-azure/
 ├── app.py
 ├── requirements.txt
 ├── .env
