@@ -28,6 +28,8 @@
 
 ## 🗂️ Folder Structure
 
+```
+/
 chatbot-ai-azure/
 ├── app.py # Main Flask app
 ├── config/ # Azure configuration (with .env support)
@@ -36,6 +38,7 @@ chatbot-ai-azure/
 ├── templates/ # HTML templates (Jinja2)
 ├── requirements.txt # Python dependencies
 ├── .env # Environment variables
+```
 
 ---
 
@@ -66,10 +69,11 @@ python app.py
 
 Then open http://localhost:5000 in your browser 🚀
 
+```
+
 👤 Author
 Built with ❤️ by Wira Dhana Putra
 🧾 [Portfolio](https://wiradp.github.io) | 💼 [LinkedIn](https://www.linkedin.com/in/wira-dhana-putra/)
 
 📄 License
 MIT License – Feel free to use and modify with credit.
-```
