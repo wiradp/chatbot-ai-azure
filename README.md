@@ -1,32 +1,35 @@
 # Chatbot AI Azure
 
-**Chatbot AI Azure** is an intelligent, multilingual web application built with Python and Microsoft Azure services. It helps users detect potential **scams, hoaxes, and online gambling promotions** by analyzing suspicious text messages. Users simply paste the message, and the system returns a classification, explanation, sentiment, and confidence level.
+**Chatbot AI Azure** is an intelligent web app that helps detect **scams, hoaxes, and online gambling promotions** using Azure OpenAI and Text Analytics. Just paste any suspicious message — the AI will analyze it, classify the risk, and explain why.
 
 ---
 
 ## 🚀 Features
 
-- 🧠 Detects **scams**, **hoaxes**, and **online gambling promotions**
-- 🌐 Supports multi-language input (Indonesian, English, Arabic, and more)
-- 🧾 Provides detailed **risk category**, **confidence level**, and **sentiment**
-- ⚡ Fast, responsive, and mobile-friendly UI
-- 🔗 Integrated with **Azure OpenAI** and **Azure Text Analytics**
-- 🌈 Built using **Flask**, **Tailwind CSS**, and **JavaScript**
+- 🧠 AI-based detection for scams, hoaxes, gambling
+- 🌐 Supports multi-language input (Indonesian, English, Arabic, etc.)
+- 🧾 Risk explanation, confidence level, and sentiment analysis
+- ⚡ Fast, responsive UI built with Flask + Tailwind CSS
+- 🔗 Powered by Azure OpenAI + Azure Cognitive Services
+
+---
+
+## 🌍 Live Demo
+
+Try it now on **Azure App Service**:  
+🔗 [https://cekfakta-ai-app.azurewebsites.net](https://cekfakta-ai-app.azurewebsites.net)
 
 ---
 
 ## 📖 How to Use
 
-1. Paste or type a suspicious message into the input box.
-2. Click the **"Analyze Now"** button.
-3. The system will return:
-   - Risk Category (e.g. Scam, Hoax, Safe)
-   - Explanation & Warning Indicators
-   - Sentiment & Confidence Level
+1. Paste a suspicious message into the input field
+2. Click **Analyze Now**
+3. View results: risk category, explanation, sentiment, and confidence
 
 ---
 
-## 🗂️ Folder Structure
+## 🗂️ Project Structure
 
 ```
 chatbot-ai-azure/
@@ -48,11 +51,9 @@ chatbot-ai-azure/
 
 ## 💻 Requirements
 
-- Python **3.8+**
-- Azure OpenAI endpoint + key
-- Azure AI Services (Text Analytics) endpoint + key
-
-See [`requirements.txt`](requirements.txt) for dependencies.
+- Python 3.8+
+- Azure OpenAI + Azure Text Analytics credentials
+- Environment variables (.env or Azure App Settings)
 
 ---
 
@@ -66,9 +67,7 @@ cd chatbot-ai-azure
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Set up environment variables in .env or config/azure_config.py
-
-# 4. Run the Flask server
+# 3. Run locally
 python app.py
 
 Then open http://localhost:5000 in your browser 🚀
