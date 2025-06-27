@@ -19,6 +19,18 @@
 Try it now on **Azure App Service**:  
 🔗 [https://cekfakta-ai-app.azurewebsites.net](https://cekfakta-ai-app.azurewebsites.net)
 
+## ⚠️ Disclaimer
+
+If you encounter the message:
+
+“App is no longer available”
+or
+“Your subscription has been disabled”
+
+This is because the free Azure subscription used to host the application has expired. As a result, the deployed web app and AI services are no longer active.
+
+You can still run the application locally or explore the source code on [GitHub](https://github.com/yourusername/chatbot-ai-azure.git)
+
 ---
 
 ## 📖 How to Use
