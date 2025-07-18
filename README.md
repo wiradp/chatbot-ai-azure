@@ -16,8 +16,12 @@
 
 ## 🌍 Live Demo
 
-Try it now on **Azure App Service**:  
-🔗 [https://cekfakta-ai-app.azurewebsites.net](https://cekfakta-ai-app.azurewebsites.net)
+You can try the live application here:
+🔗 **Current Version (Gemini API)**: [https://wiradp.github.io/chatbot-ai/](https://wiradp.github.io/chatbot-ai/)
+This version integrates Google Gemini API for text classification and is publicly accessible.
+
+🔗 **Previous Deployment (Azure API)**: [https://cekfakta-ai-app.azurewebsites.net](https://cekfakta-ai-app.azurewebsites.net)  
+_(Note: this used Microsoft Azure OpenAI during the initial free trial, which has now expired.)_
 
 ## ⚠️ Disclaimer
 
